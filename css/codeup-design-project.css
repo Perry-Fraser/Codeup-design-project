@@ -79,6 +79,10 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
+#project {
+    font-size: 14px;
+}
+
 .smallCircles {
     color: #000;
     font-family: 'Anton', sans-serif;
@@ -113,7 +117,13 @@ body {
     width: 18px;
 }
 
-
+@media screen and (max-width: 576px) {
+    .circles {
+        color: #fff;
+        font-family: 'Anton', sans-serif;
+        padding: 0;
+    }
+}
 
 @media  screen and (max-width: 425px) {
     .circles {
@@ -143,7 +153,7 @@ body {
         font-size: 20px;
         font-weight: bolder;
         font-family: 'Anton', sans-serif;
-        padding: 0 3.74vw;
+        padding: 0 2.74vw;
         margin-left: 0;
     }
 
