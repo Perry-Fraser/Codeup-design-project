@@ -116,6 +116,10 @@ body {
     height: 18px;
     width: 18px;
 }
+.featureProject {
+    font-size: 10px;
+    margin-top: .5em;
+}
 
 @media screen and (max-width: 576px) {
     .circles {
@@ -195,6 +199,41 @@ body {
 
 }
 
+@media  screen and (max-width: 768px) {
+    .smallCircles {
+        margin-left: 4em;
+        padding: 0;
+    }
+    .smallDesign {
+        background-color: #E6563B;
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        margin-right: .2em;
+    }
+
+    .smallDevelop{
+        background-color: #EB9D3A;
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        margin-right: .2em;
+    }
+    .smallSupport {
+        background-color: #7CB06C;
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        margin-right: .2em;
+    }
+
+    .smallHost {
+        background-color: #00ABA9;
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+    }
+}
 
 
 
