@@ -120,6 +120,9 @@ body {
     font-size: 10px;
     margin-top: .5em;
 }
+.theLast {
+    font-family: 'Anton', sans-serif;
+}
 
 @media screen and (max-width: 576px) {
     .circles {
