@@ -75,6 +75,10 @@ body {
     padding-top: 2rem;
 }
 
+hr {
+    width: 80%;
+}
+
 .img-thumbnail {
     background-color: rgb(224, 224, 224);
 }
@@ -124,12 +128,30 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-@media screen and (max-width: 576px) {
+.img-last {
+    height: 50px;
+    width: 50px;
+}
+
+.twitter {
+    font-family: 'Abel', sans-serif;
+}
+
+.fa-twitter {
+    color: rgba(77, 159,236);
+}
+
+@media screen and (max-width: 767px) {
     .circles {
         color: #fff;
         font-family: 'Anton', sans-serif;
         padding: 0;
     }
+
+    .theLast {
+        display: none;
+    }
+
 }
 
 @media  screen and (max-width: 425px) {
@@ -144,7 +166,6 @@ body {
 
     .smallCircles {
         margin-left: 0;
-        margin-right: 2.7em;
     }
 }
 
@@ -156,10 +177,6 @@ body {
         font-family: 'Anton', sans-serif;
         padding: 0 5.94vw;
         margin-left: .5rem;
-    }
-
-    .smallCircles {
-        margin-left: 1.3em;
     }
 }
 
