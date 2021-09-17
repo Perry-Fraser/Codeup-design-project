@@ -26,57 +26,65 @@ body {
     padding: .4rem;
     color: #000;
 }
+
+#visual {
+    font-family: 'Anton', sans-serif;
+}
+
 .circles {
     color: #fff;
-    font-size: 20px;
-    font-weight: bolder;
     font-family: 'Anton', sans-serif;
-    max-width: 100%;
+    padding: 0 13.74vw;
 }
+
+
 #design {
     background-color: #E6563B;
-    border: 5px solid #FFF;
+    border: 7px solid #FFF;
     border-radius: 50%;
-    height: 105px;
-    width: 105px;
+    height: 115px;
+    width: 115px;
     padding-top: 2rem;
+
 }
 #develop{
     background-color: #EB9D3A;
-    border: 5px solid #FFF;
+    border: 7px solid #FFF;
     border-radius: 100%;
-    height: 105px;
-    width: 105px;
+    height: 115px;
+    width: 115px;
     padding-top: 2rem;
 }
 #support {
     background-color: #7CB06C;
-    border: 5px solid #FFF;
-    border-radius: 100%;
-    height: 105px;
-    width: 105px;
+    border: 7px solid #FFF;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
     padding-top: 2rem;
 }
 
 #host{
     background-color: #00ABA9;
-    border: 5px solid #FFF;
+    border: 7px solid #FFF;
     border-radius: 100%;
-    height: 105px;
-    width: 105px;
+    height: 120px;
+    width: 120px;
     padding-top: 2rem;
 }
+
+.img-thumbnail {
+    background-color: rgb(224, 224, 224);
+}
+
 .smallCircles {
     color: #000;
     font-family: 'Anton', sans-serif;
-    font-size: .78rem;
-
-
+    font-size: 12px;
 }
 
 .smallDesign {
     background-color: #E6563B;
-    border: 1px solid #000;
     border-radius: 50%;
     height: 18px;
     width: 18px;
@@ -84,14 +92,12 @@ body {
 
 .smallDevelop{
     background-color: #EB9D3A;
-    border: 1px solid #000;
     border-radius: 50%;
     height: 18px;
     width: 18px;
 }
 .smallSupport {
     background-color: #7CB06C;
-    border: 1px solid #000;
     border-radius: 50%;
     height: 18px;
     width: 18px;
@@ -100,10 +106,44 @@ body {
 
 .smallHost {
     background-color: #00ABA9;
-    border: 1px solid #000;
     border-radius: 50%;
     height: 18px;
     width: 18px;
+}
+
+
+
+@media  screen and (max-width: 425px) {
+    .circles {
+    color: #fff;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Anton', sans-serif;
+        padding: 0 9.74vw;
+        margin-left: 1rem;
+    }
+}
+
+@media  screen and (max-width: 375px) {
+    .circles {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Anton', sans-serif;
+        padding: 0 5.94vw;
+        margin-left: .5rem;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .circles {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Anton', sans-serif;
+        padding: 0 3.74vw;
+        margin-left: 0;
+    }
 
 }
 
